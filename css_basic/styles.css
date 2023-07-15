@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    border: 3px solid red;
+    height: 200vh;
+    display: flex;
+    image-rendering: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow: auto;
+    color: red;
+}
+aside{
+    flex: 1;
+    overflow: auto;
+}
+header{
+    border: 2px solid green;
+}
